@@ -5,8 +5,9 @@ rg_dev = {
     name     = "rg_sat"
     location = "centralindia"
   }
+}
 
-  
+
 vnet_dev = {
 
   vnet_creation = {
@@ -20,23 +21,24 @@ vnet_dev = {
 
 
     subnets = [
-
-
       {
 
-        name             = "frontend_vm_subnet"
+        subnet_name      = "frontend_vm_subnet"
         address_prefixes = ["10.0.0.1/24"]
 
       },
 
       {
 
-        name             = "backend_vm_subnet"
+        subnet_name      = "backend_vm_subnet"
         address_prefixes = ["10.0.0.2/24"]
-    }]
+      }
+    ]
 
   }
-}}
+}
+
+
 
 
 

@@ -4,7 +4,10 @@ module "rg-dev-module" {
   
 }
 
-# module "vnet-dev-module"{
-#     source = "../modules/azurerm_vnet"
-#     vnet_mcv = var.vnet_dev
-# }
+
+module "vnet-dev" {
+    depends_on = [ module.rg-dev-module ]
+    source = "../modules/azurerm_vnet"
+    vnet_mcv = var.vnet_dev
+  
+}
