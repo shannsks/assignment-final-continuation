@@ -4,6 +4,7 @@ variable "vnet_mcv" {
     location            = string
     resource_group_name = string
     address_space       = list(string)
+    
     subnets = optional(
       list(
         
