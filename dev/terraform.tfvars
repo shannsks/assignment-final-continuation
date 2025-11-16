@@ -17,6 +17,11 @@ rg_dev = {
     name     = "rg3_sat"
     location = "centralindia"
   }
+
+  rg_creation_list4 = {
+
+    name     = "rg4_sat"
+    location = "centralindia"
 }
 
 vnet_dev = {
