@@ -6,24 +6,7 @@ rg_dev = {
     location = "centralindia"
   }
 
-  rg_creation_list2 = {
-
-    name     = "rg2_sat"
-    location = "centralindia"
-  }
-
-  rg_creation_list3 = {
-
-    name     = "rg3_sat"
-    location = "centralindia"
-  }
-
-  rg_creation_list4 = {
-
-    name     = "rg4_sat"
-    location = "centralindia"
-}
-
+  
 vnet_dev = {
 
   vnet_creation = {
@@ -53,7 +36,7 @@ vnet_dev = {
     }]
 
   }
-}
+}}
 
 
 
